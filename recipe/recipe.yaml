@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.16.4"
+  version: "0.17.0"
 
 recipe:
   name: rdocx-split
@@ -11,7 +11,7 @@ recipe:
 source:
   # One tag per family releases the CLI, the crates and the Python distribution.
   url: https://github.com/tensorbee/rdocx/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: e84c18abf2720e2f28ef22a490a5edc461362751724a9931a782990b4a1266e5
+  sha256: ffe9b37d18912ad2a0b37f16e8fc6a2b6375d0b0f0fd74cb1d60b90f836c596a
 
 build:
   number: 0
